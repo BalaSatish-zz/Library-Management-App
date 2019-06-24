@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bala.satish.LibraryManagementSystem">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.bala.satish.LibraryManagementSystem.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.bala.satish.LibraryManagementSystem.RegisterActivity" />
+        <activity android:name="com.bala.satish.LibraryManagementSystem.ForgotPasswordActivity" />
+        <activity android:name="com.bala.satish.LibraryManagementSystem.AddBooksActivity" />
+        <activity android:name="com.bala.satish.LibraryManagementSystem.BooksListActivity" />
+        <activity android:name="com.bala.satish.LibraryManagementSystem.ApproveBooksActivity" />
+        <activity android:name="com.bala.satish.LibraryManagementSystem.AdminManagerActivity" />
+        <activity android:name="com.bala.satish.LibraryManagementSystem.UserActivity" />
+        <activity android:name="com.bala.satish.LibraryManagementSystem.ReceivedBooksActivity" />
+        <activity android:name="com.bala.satish.LibraryManagementSystem.DetailsActivity" />
+        <activity android:name="com.bala.satish.LibraryManagementSystem.ApplyBooksActivity" />
+        <activity android:name="com.bala.satish.LibraryManagementSystem.ApprovedBooksActivity1" />
+        <activity android:name="com.bala.satish.LibraryManagementSystem.ApprovedBooksActivity2" />
+        <activity android:name="com.bala.satish.LibraryManagementSystem.TakenBooksActivity" />
+        <activity android:name="com.bala.satish.LibraryManagementSystem.PersonsApplicationsActivity"></activity>
+    </application>
+
+</manifest>
